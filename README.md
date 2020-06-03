@@ -13,10 +13,8 @@ BACKEND: PHP(To make queries to the database)
 Xampp server: It has phpMyadmin in which we can create database tables and host the website on localhost:8080.
 
 TO RUN THE WEBSITE:
-1. Install Xampp server in your machine. It can be used in any OS. Start the Xampp server on loaclhost and use phpMyAdmin to create database tables 
-that are required for this website. We've exported Database schema and added it under the folder database in this project. Please use
-the same if you want to replicate this in ur machine.
+1. Install Xampp server in your machine. It can be used in any OS. Start the Xampp server on loaclhost and use phpMyAdmin to create database tables that are required for this website. We've exported Database schema and added it under the file name NIITTracker.sql. Create database in your phpmyadmin and import this sql file to create tables required.
 2. Paste the project folder into htdocs folder that is situated in ur server i.e 192.168.64.2>lampp>htdocs. This is the
 base url for localhost. In order to run the website home page use the URL: http://localhost:8080/NIITtracker/index.php. From here 
 you can navigate to req pages.
-2. admin.php has the option to insert records in to these tables use. 
+2. admin.php has the option to insert records in to these tables use. To run this the URL would be : http://localhost:8080/admin.php
